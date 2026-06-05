@@ -16,6 +16,10 @@ It does not require Python, Git LFS, or a separate runtime.
 - Use an optional Hugging Face API token for private or gated repositories.
 - Cache listings locally for faster repeated browsing.
 
+## Video
+Intro.mp4
+https://github.com/mikinko/HuggingFace_WFX/blob/main/Intro.mp4
+
 ## Browsing Modes
 
 | Mode | Example | Result |
