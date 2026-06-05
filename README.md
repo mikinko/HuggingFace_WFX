@@ -20,7 +20,7 @@ It does not require Python, Git LFS, or a separate runtime.
 ## Video
 how it works, add repo, delete, rename ...
 https://github.com/user-attachments/assets/72104be6-0c45-4fe9-9f11-5cef0e6eda4b
-
+<video src="intro.mp4" width="100%" controls></video>
 ## Browsing Modes
 
 | Mode | Example | Result |
