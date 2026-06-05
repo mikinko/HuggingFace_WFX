@@ -2,6 +2,7 @@
 
 Native Total Commander file system plugin for browsing Hugging Face models,
 organizations, collections, and repository files as a virtual folder tree.
+It has been built using claude/codex AI. Hope you find it usefull. 
 
 `hf_wfx` is a single `.wfx64` plugin for 64-bit Total Commander on Windows.
 It does not require Python, Git LFS, or a separate runtime.
