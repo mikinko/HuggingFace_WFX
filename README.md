@@ -7,6 +7,13 @@ It has been built using claude/codex AI. Hope you find it usefull.
 `hf_wfx` is a single `.wfx64` plugin for 64-bit Total Commander on Windows.
 It does not require Python, Git LFS, or a separate runtime.
 
+## NEWS v1.4
+- **`***_TEMPORARY_***` browse slot.** A virtual folder pinned at the top of the
+  root. Entering it prompts for a HuggingFace org or model URL, then lets you
+  browse and download that repo exactly like a saved entry — but it is never
+  written to `favorites.json`
+- **Dataset support.** Browse and download HuggingFace datasets
+
 ## What It Does
 
 - Browse Hugging Face organizations as model folders.
