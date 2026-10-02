@@ -18,26 +18,13 @@ It does not require Python, Git LFS, or a separate runtime.
 - **Fast folder opening.** Repos are listed one folder at a time (no more
   waiting for the whole tree of a huge dataset), and every folder you have
   seen is served from the cache.
-- **Ctrl+R refreshes.** Re-reading a folder fetches it again from HuggingFace
-  if it is older than 90 seconds; normal browsing keeps using the cache.
-- **`[Clear all caches]`** row at the root, next to `[Settings]` and
-  `[Add New Entry]`.
 - **Real dates everywhere.** Model folders in org listings and collections show
   the model's last change; inside a repo every file shows its own last commit
   and every folder the latest change within it — sort by date to see what was
   updated recently. (Folders with more than 500 items, e.g. dataset shards,
   show the repo's date instead to stay fast.)
-- **Config folder setting.** Where `favorites.json` lives is set in Settings and
-  stored in `hf_wfx.ini` next to the plugin (see *Data Locations*).
-- **Duplicate protection.** Adding an entry that already exists shows a warning
-  instead of creating `name (2)`; duplicates in older configs are repaired on
-  load.
-- Collection folder names are made safe for Windows (no `/`, `:` …) and kept
-  unique; rate-limit answers from HuggingFace (HTTP 429) are waited out and
-  retried.
-- Removed the "Enable offline cache" checkbox — caching is controlled globally
-  by the cache folder and TTL.
-
+... and more
+  
 ## NEWS v1.4
 - **`***_TEMPORARY_***` browse slot.** A virtual folder pinned at the top of the
   root. Entering it prompts for a HuggingFace org or model URL, then lets you
